@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+    %title Get Steve Buscemeyed!
+    %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.4.0/fabric.min.js"}
+    = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+    = csrf_meta_tags
+  %body
+    = yield
+    = javascript_include_tag "application", "data-turbolinks-track" => true

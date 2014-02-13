@@ -1,0 +1,13 @@
+%h1 Who's Getting Buscemeyed?
+
+- if @selfies.count > 0
+	- @selfies.each do |selfy|
+		%div.Selfie
+			%img{:src => selfy.pic, :height => "150px", :width => "150px", :class => "rotated"} <br/>
+			%p= link_to "PICK ME!", selfy
+- else
+	%p
+		%em Oops, doesn't look like there are any selfies yet.
+
+	%h1.Buscemintro
+		selfie@itsrob.in	
