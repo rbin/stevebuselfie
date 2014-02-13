@@ -1,1 +1,7 @@
-== SteveBuselfy!
+== Steve Buselfie
+
+SendGrid's Inbound Parse API is a wodnerful piece of technology.
+
+In this app we'll demo it's use inside a Rails application.
+
+** Get ready to get Steve Buscemeyed!! **
